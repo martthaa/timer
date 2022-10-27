@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href='./style.css'>
+    
+</head>
+<body>
+    
+    <section class="timer_section">
+        <div class="promotion">
+            <div class="container">
+                <div class="promotion__timer">
+                    <h1 class="title">Залишилось до початку гри</h1>
+                    <div class="timer">
+                        <div class="promotion__descr"></div>
+                        <div class="timer__block">
+                            <span id="days">00</span>
+                            днів
+                        </div>
+                        <div class="timer__block">
+                            <span id="hours">00</span>
+                            годин
+                        </div>
+                        <div class="timer__block">
+                            <span id="minutes">00</span>
+                            хвилин
+                        </div>
+                        <div class="timer__block">
+                            <span id="seconds">00</span>
+                            секунд
+                        </div>
+                    </div>
+                    <div class="interact">
+                        <input class="input" type="datetime-local">
+                        <button class="btn" type="button">Встановити</button>
+                        <button class="reset-btn" type="button" >Скинути</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src='./main.js'></script>
+</body>
+</html>
